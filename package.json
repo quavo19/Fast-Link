@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/quavo19/Fast-Link/issues"
   },
-  "homepage": "https://github.com/quavo19/Fast-Link#readme"
+  "homepage": "https://github.com/quavo19/Fast-Link#readme",
+  "devDependencies": {
+    "hint": "^7.1.3"
+  }
 }
