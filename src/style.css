@@ -169,8 +169,8 @@ body {
 .card-1,
 .card-2 {
   width: 250px;
-  height: 335px;
-  border: 2px solid rgb(111, 90, 61);
+  height: 347px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   background-color: #fff;
 }
@@ -184,4 +184,18 @@ body {
 
 .card-info {
   padding: 7px;
+}
+
+.foward {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  height: 25px;
+  border-radius: 20px;
+  width: 25px;
+  background-color: rgb(81, 67, 49);
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  margin-left: 200px;
 }
