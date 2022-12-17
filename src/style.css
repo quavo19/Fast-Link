@@ -176,7 +176,7 @@ body {
 }
 
 .card-image img {
-  width: 248px;
+  width: 250px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   height: 200px;
@@ -198,4 +198,17 @@ body {
   font-size: 12px;
   position: absolute;
   margin-left: 200px;
+}
+
+.about-content {
+  width: 500px;
+}
+
+.cardz {
+  display: flex;
+  width: 600px;
+}
+
+.wwd {
+  padding-left: 10%;
 }
