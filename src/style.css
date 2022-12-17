@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+.nav-content {
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.search {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 2.3px solid rgb(194, 158, 112);
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.search-label {
+  padding-left: 12px;
+}
+
+.login button {
+  height: 40px;
+  width: 90px;
+  border: burlywood;
+  background-color: rgb(154, 126, 90);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
