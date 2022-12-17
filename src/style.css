@@ -212,3 +212,21 @@ body {
 .wwd {
   padding-left: 10%;
 }
+
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10%;
+}
+
+.education-about {
+  padding-left: 20px;
+}
+
+.education-image img {
+  width: 500px;
+  height: 400px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
