@@ -81,3 +81,42 @@ body {
   padding-left: 10px;
   font-size: 15px;
 }
+
+.welcome-page {
+  padding: 17% 7% 17%;
+}
+
+.welcome-head {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.welcome-text p {
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.welcome-buttons {
+  display: flex;
+  width: 330px;
+  justify-content: space-between;
+}
+
+.welcome-buttons button {
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.welcome-btn-1 button {
+  background-color: rgb(176, 143, 97);
+  border: none;
+  color: #fff;
+}
+
+.welcome-btn-2 button {
+  color: rgb(111, 90, 61);
+}
