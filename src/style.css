@@ -84,6 +84,7 @@ body {
 
 .welcome-page {
   padding: 17% 7% 17%;
+  height: 80vh;
 }
 
 .welcome-head {
@@ -119,4 +120,56 @@ body {
 
 .welcome-btn-2 button {
   color: rgb(111, 90, 61);
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12% 40px 12%;
+  height: 60vh;
+}
+
+.image {
+  width: 50%;
+}
+
+.label {
+  font-size: 20px;
+  padding-bottom: 17px;
+}
+
+.label h1 {
+  font-weight: bold;
+}
+
+.description p {
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+.wwd-section {
+  height: 60vh;
+}
+
+.wwd-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12% 40px 12%;
+  background-color: rgb(243, 238, 233);
+  height: 270px;
+  padding: 40px;
+}
+
+.card-1 {
+  margin-right: 20px;
+  margin-top: 50px;
+
+}
+
+.card-1,
+.card-2 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(111, 90, 61);
+  border-radius: 8px;
 }
