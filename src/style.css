@@ -17,6 +17,16 @@ body {
   padding: 20px;
 }
 
+.nav-logo {
+  padding-left: 40px;
+}
+
+.nav-logo p {
+  font-size: 47px;
+  font-weight: bolder;
+  color: rgb(154, 126, 90);
+}
+
 .left-nav {
   display: flex;
   width: 400px;
@@ -48,4 +58,26 @@ body {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
+}
+
+.nav-list {
+  background-color: rgb(111, 90, 61);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list ul{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 7% 20px 7%;
+}
+
+.nav-list ul li {
+  list-style: none;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 15px;
 }
