@@ -65,15 +65,24 @@ body {
 }
 
 .nav-list {
-  background-color: rgb(111, 90, 61);
   height: 70px;
+  position: relative;
+  width: 100%;
+  background-color: rgb(111, 90, 61);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.nav-list::before {
+  content: '';
+  background-color: rgb(111, 90, 61);
+  opacity: 0.35;
+}
+
 .nav-list ul{
   display: flex;
+  position: relative;
   justify-content: space-between;
   width: 100%;
   padding: 20px 7% 20px 7%;
@@ -81,7 +90,8 @@ body {
 
 .nav-list ul li {
   list-style: none;
-  color: #fff;
+  position: relative;
+  color: rgb(7, 7, 7);
   padding-left: 10px;
   font-size: 15px;
 }
@@ -225,6 +235,7 @@ body {
 }
 
 .education-about {
+  display: flex;
   padding-left: 20px;
 }
 
@@ -242,4 +253,9 @@ body {
 
 .membership {
   text-align: center;
+  height: 70vh;
+}
+
+.public {
+  display: flex;
 }
