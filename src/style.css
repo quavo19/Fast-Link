@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.nav-content {
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-logo {
+  padding-left: 40px;
+}
+
+.nav-logo p {
+  font-size: 47px;
+  font-weight: bolder;
+  color: rgb(154, 126, 90);
+}
+
+.left-nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2.3px solid rgb(194, 158, 112);
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.search-label {
+  padding-left: 12px;
+}
+
+.search-icon {
+  padding-right: 10px;
+}
+
+.login button {
+  height: 40px;
+  width: 90px;
+  border: burlywood;
+  background-color: rgb(154, 126, 90);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-list {
+  height: 70px;
+  position: relative;
+  width: 100%;
+  background-color: #4f4019;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 7% 20px 7%;
+}
+
+.nav-list ul li {
+  list-style: none;
+  position: relative;
+  color: #fff;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.welcome-page {
+  background-image:
+    linear-gradient(to right, #4f4019 25%, #84692900),
+    url('img/bg1.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 17% 7% 17% 7%;
+  height: 90vh;
+}
+
+.welcome-head {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.welcome-text p {
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.welcome-buttons {
+  display: flex;
+  width: 330px;
+  justify-content: space-between;
+}
+
+.welcome-buttons button {
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.welcome-btn-1 button {
+  background-color: rgb(176, 143, 97);
+  border: none;
+  color: #fff;
+}
+
+.welcome-btn-2 button {
+  color: rgb(111, 90, 61);
+  border: none;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 12% 40px 12%;
+  height: 60vh;
+}
+
+.image {
+  width: 50%;
+}
+
+.label {
+  font-size: 20px;
+  padding-bottom: 17px;
+}
+
+.label h1 {
+  font-weight: bold;
+}
+
+.description p {
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+.wwd-section {
+  height: 60vh;
+}
+
+.wwd-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12% 40px 12%;
+  background-color: rgb(243, 238, 233);
+  height: 270px;
+}
+
+.card-1 {
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.card-1,
+.card-2 {
+  width: 250px;
+  height: 347px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card-image img {
+  width: 250px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 200px;
+}
+
+.card-info {
+  padding: 7px;
+}
+
+.foward {
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+  height: 25px;
+  border-radius: 20px;
+  width: 25px;
+  background-color: rgb(81, 67, 49);
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  margin-left: 200px;
+}
+
+.about-content {
+  width: 500px;
+}
+
+.cardz {
+  display: flex;
+  width: 600px;
+}
+
+.wwd {
+  padding-left: 10%;
+}
+
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10%;
+}
+
+.education-about {
+  display: flex;
+  padding-left: 20px;
+}
+
+.education-image img {
+  width: 500px;
+  height: 400px;
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+.member-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.membership {
+  text-align: center;
+  height: 70vh;
+}
+
+.public {
+  display: flex;
+}
