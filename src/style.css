@@ -74,7 +74,7 @@ body {
   align-items: center;
 }
 
-.nav-list ul{
+.nav-list ul {
   display: flex;
   position: relative;
   justify-content: space-between;
