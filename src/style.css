@@ -68,16 +68,10 @@ body {
   height: 70px;
   position: relative;
   width: 100%;
-  background-color: rgb(111, 90, 61);
+  background-color:  #4f4019;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.nav-list::before {
-  content: '';
-  background-color: rgb(111, 90, 61);
-  opacity: 0.35;
 }
 
 .nav-list ul{
@@ -91,14 +85,17 @@ body {
 .nav-list ul li {
   list-style: none;
   position: relative;
-  color: rgb(7, 7, 7);
+  color: #fff;
   padding-left: 10px;
   font-size: 15px;
 }
 
 .welcome-page {
-  padding: 17% 7% 17%;
-  height: 80vh;
+  background-image:linear-gradient(to right, #4f4019 25%,#84692900),url('img/bg1.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 17% 7% 17% 7%;
+  height: 90vh;
 }
 
 .welcome-head {
@@ -134,12 +131,13 @@ body {
 
 .welcome-btn-2 button {
   color: rgb(111, 90, 61);
+  border: none;
 }
 
 .about-section {
   display: flex;
   justify-content: space-between;
-  padding: 0 12% 40px 12%;
+  padding: 40px 12% 40px 12%;
   height: 60vh;
 }
 
