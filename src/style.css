@@ -7,6 +7,9 @@
 body {
   font-family: sans-serif;
 }
+.swiper {
+  width: 80vw;
+}
 
 .nav-content {
   height: 70px;
@@ -259,4 +262,137 @@ body {
 
 .public {
   display: flex;
+}
+
+/* slider  */
+
+.slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.slider-section .card .image {
+  height: 140px;
+  width: 140px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #4f4019;
+}
+
+.slider-section .card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.card {
+  position: relative;
+  background: rgb(194, 181, 181);
+  border-radius: 20px;
+  margin: 20px 0;
+  min-width: 280px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  height: 45%;
+  width: 100%;
+  background: #4f4019;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.card .media-icons {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i {
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover {
+  opacity: 1;
+}
+
+.card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name-profession .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.name-profession .profession {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card .rating {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.card .rating i {
+  font-size: 18px;
+  margin: 0 2px;
+  color: #4f4019;
+}
+
+.card .buttonz {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card .buttonz button {
+  background: #4f4019;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.buttonz button:hover {
+  background: #362b11;
+}
+
+.swiper-button-next,  .swiper-button-prev {
+  position: relative !important;
+  top: 0 !important;
+}
+
+.swiper-pagination {
+  position: relative;
 }
