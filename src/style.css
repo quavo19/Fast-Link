@@ -7,6 +7,7 @@
 body {
   font-family: sans-serif;
 }
+
 .swiper {
   width: 80vw;
 }
@@ -27,7 +28,7 @@ body {
 .nav-logo p {
   font-size: 47px;
   font-weight: bolder;
-  color: rgb(154, 126, 90);
+  color: #c3a558;
 }
 
 .left-nav {
@@ -42,7 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2.3px solid rgb(194, 158, 112);
+  border: 2.3px solid #c4a350;
   width: 250px;
   height: 40px;
   border-radius: 50px;
@@ -60,7 +61,7 @@ body {
   height: 40px;
   width: 90px;
   border: burlywood;
-  background-color: rgb(154, 126, 90);
+  background-color: #806a32;
   border-radius: 50px;
   font-size: 12px;
   font-weight: bold;
@@ -82,7 +83,7 @@ body {
   position: relative;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 7% 20px 7%;
+  padding: 20px 7%;
 }
 
 .nav-list ul li {
@@ -96,10 +97,10 @@ body {
 .welcome-page {
   background-image:
     linear-gradient(to right, #4f4019 25%, #84692900),
-    url('img/bg1.jpg');
+    url("img/bg1.jpg");
   background-size: cover;
   color: #fff;
-  padding: 17% 7% 17% 7%;
+  padding: 17% 7%;
   height: 90vh;
 }
 
@@ -129,13 +130,13 @@ body {
 }
 
 .welcome-btn-1 button {
-  background-color: rgb(176, 143, 97);
+  background-color: #cbb274;
   border: none;
   color: #fff;
 }
 
 .welcome-btn-2 button {
-  color: rgb(111, 90, 61);
+  color: #7c652c;
   border: none;
 }
 
@@ -176,7 +177,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 10px 2% 40px 1%;
-  background-color: rgb(243, 238, 233);
+  background-color: #e1d1a8;
   height: 270px;
 }
 
@@ -190,7 +191,7 @@ body {
   width: 30vw;
   max-width: 250px;
   height: 347px;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px 0 #0a0905;
   border-radius: 8px;
   background-color: #fff;
 }
@@ -214,7 +215,7 @@ body {
   height: 25px;
   border-radius: 20px;
   width: 25px;
-  background-color: rgb(81, 67, 49);
+  background-color: #4f4019;
   color: #fff;
   font-size: 12px;
   position: absolute;
@@ -235,7 +236,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5%10% 10% 5%;
+  margin: 5% 10% 10% 5%;
 }
 
 .education-about {
@@ -291,7 +292,7 @@ body {
 
 .card {
   position: relative;
-  background: rgb(194, 181, 181);
+  background: #d6c8a6;
   border-radius: 20px;
   margin: 20px 0;
   min-width: 280px;
@@ -332,10 +333,6 @@ body {
   cursor: pointer;
 }
 
-.card .media-icons i:hover {
-  opacity: 1;
-}
-
 .card .name-profession {
   display: flex;
   flex-direction: column;
@@ -365,6 +362,10 @@ body {
   color: #4f4019;
 }
 
+.card .media-icons i:hover {
+  opacity: 1;
+}
+
 .card .buttonz {
   width: 100%;
   display: flex;
@@ -388,7 +389,8 @@ body {
   background: #362b11;
 }
 
-.swiper-button-next,  .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   position: relative !important;
   top: 0 !important;
 }
